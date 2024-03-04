@@ -63,7 +63,7 @@ Templates in design systems help define a standard page layout across multiple p
 Pages in atomic design are instances of templates in our user interface. Pages are what our users will see in the finished product.</p>
 
 </hr>
-
+</br> </br>
 <h1>2.  12 Factor App </h1>
  </br>
 <p>The Twelve-factor app is a set of 12 principles or best practices for building web applications which now days are more commonly known as Software-As-A-Service (SAAS) applications. It provides a set of best practices to create robust, scalable, and maintainable apps </p>
@@ -77,11 +77,11 @@ Pages in atomic design are instances of templates in our user interface. Pages a
 <li><b> Build,Release & Run: </b>Strictly separate build and run stages to avoid surprises.</li>
 <li><b> Processes: </b>Execute the app as one or more stateless processes.</li>
 <li><b> Port Binding: </b>Export services via port binding.</li>
-<li><b> Concurrency: </b></li>
-<li><b>Disposability : </b></li>
-<li><b> Development/Production Parity: </b></li>
-<li><b> Logs: </b></li>
-<li><b> Admin Processes: </b></li>
+<li><b> Concurrency: </b>Scale out via the process model.</li>
+<li><b>Disposability : </b>Maximize robustness with fast startup and graceful shutdown.</li>
+<li><b> Development/Production Parity: </b>Keep development, staging, and production as similar as possible.</li>
+<li><b> Logs: </b>Treat logs as event streams.</li>
+<li><b> Admin Processes: </b>Run admin/management tasks as one-off processes.</li>
 
  </ol>
 
