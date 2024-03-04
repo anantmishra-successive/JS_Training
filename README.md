@@ -12,8 +12,6 @@
            <li>Templates</li>
              <li>Pages</li>
 
-
-
    </ul>
   
   
@@ -29,36 +27,64 @@
 
 </p>
 
-<img src="./https://miro.medium.com/v2/resize:fit:4800/format:webp/1*U-jFHRJxePDHHBWtd19M8g.png" alt="Atomic Design"/> 
-
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*U-jFHRJxePDHHBWtd19M8g.png" alt="Atomic Design"/>
 
 <p> 
-Subatomic particles
+<b>Subatomic particles</b>
+<br>
 The subatomic particles would be the bare-minimum foundational elements you’d need for all your components. These consists of elements like your color palette, typography, shadows, and spacing.
 </p>
 
 <p>
-Atoms
+<b>Atoms</b> </br>
 atoms in design systems are the smallest elements that cannot be broken down further. These include things like buttons, input fields, switches, etc. 
 </p>
 
 <p> 
-Molecules
+<b>Molecules</b> </br>
 molecules that are combinations of multiple atoms.
 Ex Card Items
 
 </p>
 
 <p>
-Organisms
+<b>Organisms</b> </br>
 These are the highest complexity levels of any given interface component.
  The header, menu bar, data grids, etc., are the commonly defined organisms in most design systems
 </p>
 
 <p>
+<b> Templates </b> </br>
 Templates in design systems help define a standard page layout across multiple pages with similar functionality. Templates are standardized layouts for organizing atoms, molecules, and organisms across your product.
 </p>
 
 <p> 
-Pages
+<b>Pages </b> </br>
 Pages in atomic design are instances of templates in our user interface. Pages are what our users will see in the finished product.</p>
+
+</hr>
+
+<h1>2.  12 Factor App </h1>
+ </br>
+<p>The Twelve-factor app is a set of 12 principles or best practices for building web applications which now days are more commonly known as Software-As-A-Service (SAAS) applications. It provides a set of best practices to create robust, scalable, and maintainable apps </p>
+<p>The factors are as follows: </p>
+
+<ol>
+<li><b>Codebase: </b>  Maintain one codebase tracked in revision control, but deploy it to many environments.</li>
+<li><b> Dependencies: </b>Explicitly declare and isolate dependencies to ensure consistency</li>
+<li><b> Config: </b>Store configuration in the environment, separate from the code.</li>
+<li><b> Backing Services: </b>Treat backing services (databases, queues, etc.) as attached resources.</li>
+<li><b> Build,Release & Run: </b>Strictly separate build and run stages to avoid surprises.</li>
+<li><b> Processes: </b>Execute the app as one or more stateless processes.</li>
+<li><b> Port Binding: </b>Export services via port binding.</li>
+<li><b> Concurrency: </b></li>
+<li><b>Disposability : </b></li>
+<li><b> Development/Production Parity: </b></li>
+<li><b> Logs: </b></li>
+<li><b> Admin Processes: </b></li>
+
+ </ol>
+
+
+
+</hr>
