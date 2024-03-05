@@ -63,7 +63,8 @@ Templates in design systems help define a standard page layout across multiple p
 Pages in atomic design are instances of templates in our user interface. Pages are what our users will see in the finished product.</p>
 
 </hr>
-</br> </br>
+</br> </br
+>
 <h1>2.  12 Factor App </h1>
  </br>
 <p>The Twelve-factor app is a set of 12 principles or best practices for building web applications which now days are more commonly known as Software-As-A-Service (SAAS) applications. It provides a set of best practices to create robust, scalable, and maintainable apps </p>
