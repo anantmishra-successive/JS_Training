@@ -1,6 +1,5 @@
 //  Write a function to take input(age, name, phone no.) from user and display it
 
-
 var prompt = require('prompt');
 const schema = {
     properties: {
