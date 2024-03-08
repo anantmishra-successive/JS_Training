@@ -6,7 +6,7 @@ const printNo = (num)=>{
     let odd= ""
     for(let i=0;i<num;i++){
       if(i%2===0){
-        even = ans+i+" ";
+        even = even+i+" ";
       } 
       else {
         odd = odd+i+" ";

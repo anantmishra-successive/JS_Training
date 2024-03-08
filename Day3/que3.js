@@ -10,7 +10,7 @@
 //      *  *
 //        *
 
-function printDiamond(size) {
+ function printDiamond(size) {
 	let pattern = "";
 	for (var i = 1; i <= size; i++) {
 	  for (let s = size - 1; s >= i; s--) {
