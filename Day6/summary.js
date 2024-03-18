@@ -54,7 +54,7 @@ class Rectangle extends Shape {
     }
 
     getArea() {
-        return this.height * this.width;
+        return super.getArea();
     }
 }
 class Triangle extends Shape {
@@ -116,7 +116,9 @@ class Student extends Person {
         }
     
     greetings(){
-        console.log(`${this.name } is studying ${this.studies}`);
+        super.greetings() 
+        console.log(`he is studying ${this.studies}`)
+        // console.log(`Hi ${this.name } welcome to Successive Digital ! you are ${this.age} years old with a ${this.gender} personality and you have ${this.interests} skillls and you are studying ${this.studies}`);
     }
 }
 
@@ -132,12 +134,14 @@ this.subjectsTaught = subjectsTaught
     }
 
     farewell(){
-        console.log(`${this.name} is teaching ${this.subjectsTaught}`)
+        super.farewell();
+        console.log(`He is teaching ${this.subjectsTaught}`) 
     }
 }
 
 const t1 = new Teacher("Krishna",25,"male","coding","Javascript")
 t1.farewell()
+
 
 console.log("")
 
@@ -163,7 +167,7 @@ class Person2 {
      ans = ans+object[i].age;
 
         }
-        return ans/object.length;
+        return Math.round(ans/object.length);
     }
 
 }
