@@ -95,7 +95,13 @@ const obj2 = {
       }
       return flattenedObj;
   }
-  
-  console.log(flatten(obj2));
+  const ansObj = flatten(obj2)
+  const result = Object.fromEntries(
+    Object.entries(ansObj).map((e) => [
+      [e[0].substring(1)], e[1]
+    ])
+  );
+  console.log(result);
+//   console.log(flatten(obj2));
 
   console.log("");
