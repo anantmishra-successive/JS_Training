@@ -19,7 +19,7 @@ class Rectangle extends Shape {
     }
 
     getArea() {
-        return this.height * this.width;
+        return super.getArea();
     }
 }
 class Triangle extends Shape {

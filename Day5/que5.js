@@ -7,25 +7,25 @@ const obj2 = {
   };
   const flattenedObj = {};
   
-  const flatten = (obj, prefix = '') => {
+  const flatten = (obj, prefix = "") => {
+    for (key in obj) {
+      if (typeof obj[key] === "object") {
+        if (prefix === "") {
+          flatten(obj[key], key);
+        } else {
+          flatten(obj[key], prefix + "." + key);
+        }
+      } else {
+        let prefixKey;
+        if (prefix === "") {
+          prefixKey = key;
+        } else {
+          prefixKey = prefix + "." + key;
+        }
   
-      for (key in obj){
-          if (typeof obj[key] === 'object'){
-              flatten(obj[key], prefix + '.' + key);
-          }else{
-              let prefixKey = prefix + '.' + key; 
-              flattenedObj[prefixKey] = obj[key];
-          }
+        flattenedObj[prefixKey] = obj[key];
       }
-      return flattenedObj;
-  }
-
-  const ansObj = flatten(obj2)
-  const result = Object.fromEntries(
-    Object.entries(ansObj).map((e) => [
-      [e[0].substring(1)], e[1]
-    ])
-  );
-  console.log(result);
-  
-//   console.log(flatten(obj2));
+    }
+    return flattenedObj;
+  };
+  console.log(flatten(obj2));
