@@ -20,7 +20,7 @@ class Person {
      ans = ans+object[i].age;
 
         }
-        return ans/object.length;
+        return Math.round(ans/object.length);
     }
 
 }
