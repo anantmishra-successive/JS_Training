@@ -39,7 +39,7 @@ class Student extends Person {
         }
     
     greetings(){
-        console.log(`${this.name } is studying ${this.studies}`);
+        console.log(`Hi ${this.name } welcome to Successive Digital ! you are ${this.age} years old with a ${this.gender} personality and you have ${this.interests} skillls and you are studying ${this.studies}`);
     }
 }
 
@@ -55,7 +55,7 @@ this.subjectsTaught = subjectsTaught
     }
 
     farewell(){
-        console.log(`${this.name} is teaching ${this.subjectsTaught}`)
+        console.log(`Hi ${this.name } thanks for your services !! He is  teaching ${this.subjectsTaught}`)
     }
 }
 
